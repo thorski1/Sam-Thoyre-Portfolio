@@ -4,7 +4,8 @@ import {
 	Container,
 	Image,
 	Segment,
-	Header
+	Header,
+	Divider
 } from "semantic-ui-react";
 import {rows} from './About'
 
@@ -14,14 +15,20 @@ export default function About() {
 			<Grid stackable>
 				<Grid.Row stretched>
 					<Grid.Column width={6}>
-						<Segment piled>
+						<Segment color="blue" piled>
 							<Image rounded src="assets/FamilyPic.jpg" />
 						</Segment>
 					</Grid.Column>
 					<Grid.Column width={10}>
-						<Segment raised textAlign="center" color="blue">
-							<Header as="h1">About Me!</Header>
-							<Segment color="grey">
+						<Segment
+							raised
+							textAlign="center"
+							inverted
+							color="blue"
+							tertiary
+						>
+							<h1 className="font3">About Me!</h1>{" "}
+							<Segment secondary>
 								<Header as="h3">
 									Hello! My name is Sam Thoyre and I love to
 									code! I've done a lot of different things
@@ -44,11 +51,12 @@ export default function About() {
 						</Segment>
 					</Grid.Column>
 				</Grid.Row>
+				<Divider section />
 				{rows.map((row, i) =>
 					i % 2 === 0 || i === 0 ? (
 						<Grid.Row stretched>
 							<Grid.Column width={11}>
-								<Segment raised color={row.color}>
+								<Segment secondary raised color={row.color}>
 									<Header textAlign="center" as="h4">
 										{row.paragraph}
 									</Header>
@@ -68,7 +76,7 @@ export default function About() {
 								</Segment>
 							</Grid.Column>
 							<Grid.Column width={9} floated="right">
-								<Segment raised color={row.color}>
+								<Segment secondary raised color={row.color}>
 									<Header as="h4" textAlign="center">
 										{row.paragraph}
 									</Header>

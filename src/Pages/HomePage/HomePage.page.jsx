@@ -4,25 +4,27 @@ import {
 	Image,
 	Segment,
 	Header,
-	Icon
+	Icon,
+	Divider
 } from "semantic-ui-react";
 
 const HomePage = () => (
 	<Grid stackable columns={3}>
 		<Grid.Row centered>
 			<Grid.Column width={10}>
-				<Segment raised color="blue">
+				<Segment raised inverted color="blue" tertiary>
 					<Image
 						centered
-						size="large"
+						size="huge"
 						rounded
-						src="/assets/profilePic.jpg"
+						src="/assets/homepagepic.jpg"
 					/>
-					<Segment raised color="blue" textAlign="center">
-						<Header as="h1">Sam Thoyre</Header>
-						<Header as="h3">
+					<Segment tertiary raised textAlign="center">
+						<h1 className="font1">Sam Thoyre</h1>
+						<h2 className="font2">
 							Web Developer Extraordinaire
-						</Header>
+						</h2>
+						<Divider section/>
 						<Icon color="yellow" name="js" size="huge" />
 						<Icon color="blue" name="react" size="huge" />
 						<Icon

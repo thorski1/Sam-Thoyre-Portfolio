@@ -15,20 +15,31 @@ const Contact = () => (
 		<Grid stackable columns={2}>
 			<Grid.Row stretched>
 				<Grid.Column>
-						<Segment stacked color="blue" textAlign="center">
-							<Image
-								verticalAlign="middle"
-								rounded
-								src="/assets/SharkNMe.jpg"
-							/>
-							<Header as="h3">
-								Me and my little baby shark hanging out
-							</Header>
-						</Segment>
+					<Segment
+						secondary
+						stacked
+						color="blue"
+						textAlign="center"
+					>
+						<Image
+							verticalAlign="middle"
+							rounded
+							src="/assets/SharkNMe.jpg"
+						/>
+						<Header as="h3">
+							Me and my little baby shark hanging out
+						</Header>
+					</Segment>
 				</Grid.Column>
 				<Grid.Column>
-					<Segment raised color="blue" textAlign="center">
-						<Header as="h1">Get in touch with me!</Header>
+					<Segment
+						raised
+						inverted
+						color="blue"
+						tertiary
+						textAlign="center"
+					>
+						<h1 className="font3">Get in touch with me!</h1>
 						<Segment>
 							<Header as="h3">
 								I am looking for new opportunities! If you

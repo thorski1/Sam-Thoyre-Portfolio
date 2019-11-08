@@ -8,7 +8,7 @@ export const rows = [
 					{
 						paragraph:
 							"When I was 10, I was introduced to the great game of golf by my dad, and my life was immediately changed forever. As a kid, I would pour over every instructional book and magazine I could get my hands on and try to implement the tips being provided in these resources. I spent every day after school hitting balls into a net from a mat my dad and grandfather built for us, often hitting more than 500 balls a day. My dad and I spent every Saturday and Sunday out on the links together, forming an unbreakable bond and leaving me with memories that will likely last a lifetime. In 2015 we spent 7 days in Scotland, the home of golf, playing some of the most famous and oldest golf courses you can find anywhere. We played 13 rounds in 7 days, walking every course and soaking in the scenery and history-rich treasures as much as we could. This was a trip of a lifetime; I hope we are able to do it again at some point.",
-						image: "/assets/KaijaSmiles.jpg",
+						image: "/assets/profilePic.jpg",
 						color: "pink"
 					},
 					{

@@ -1,0 +1,31 @@
+.container {
+    margin: 50px;
+}
+
+.grid {
+    margin: 50px;
+}
+
+.statistic {
+    width: 100%;
+    
+}
+
+.font1 {
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: .2em;
+    margin-bottom: -0.5em;
+}
+
+.font2 {
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: .1em;
+    font-size: 30px;
+}
+
+.font3 {
+    font-family: 'Aclonica', cursive;
+    letter-spacing: .1em;
+    font-size: 35px;
+}

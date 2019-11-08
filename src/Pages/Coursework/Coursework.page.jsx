@@ -1,6 +1,5 @@
 import React from "react";
-import "./coursework.css";
-import { Card, Statistic, Icon } from "semantic-ui-react";
+import { Card, Statistic, Icon, Divider, Segment, Header } from "semantic-ui-react";
 import { courses } from "./coursework";
 
 export default function Coursework() {
@@ -14,19 +13,23 @@ export default function Coursework() {
 
 	return (
 		<div className="container">
-			<Statistic
-				className="statistic"
-				size="large"
-				color="grey"
+			<Segment
+				inverted
+				color="blue"
+				tertiary
+				textAlign="center"
 			>
+				<h1 className="font3">Coursework</h1>
+			</Segment>
+			<Statistic centered size="large" color="grey">
 				<Statistic.Value>
 					<Icon color="grey" name="clock outline" />
 					{totalQuantity}
 				</Statistic.Value>
 				<Statistic.Label>Hours Completed</Statistic.Label>
 			</Statistic>
-
-			<Card.Group>
+			<Divider section />
+			<Card.Group centered>
 				{courses.map(course => (
 					<Card
 						href={course.link}

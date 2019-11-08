@@ -1,18 +1,27 @@
 import React from "react";
-import "./Skills.css";
 import { technicalSkills, softSkills } from "./skills";
 import {
 	Progress,
 	Card,
 	Feed,
-	Header
+	Header,
+	Segment,
+	Divider
 } from "semantic-ui-react";
 
 export default function Skills() {
 	return (
 		<div className="container">
-			<Header as="h1">Technical Skills</Header>
-			<Card.Group>
+			<Segment
+				inverted
+				color="blue"
+				tertiary
+				textAlign="center"
+			>
+				<h1 className="font3">Technical Skills</h1>
+			</Segment>
+			<Divider section />
+			<Card.Group centered>
 				{technicalSkills.map(skill => (
 					<Card color={skill.color}>
 						<Card.Content>
@@ -36,8 +45,17 @@ export default function Skills() {
 					</Card>
 				))}
 			</Card.Group>
-			<Header as="h1">Soft Skills</Header>
-			<Card.Group>
+			<Divider section />
+			<Segment
+				inverted
+				color="blue"
+				tertiary
+				textAlign="center"
+			>
+				<h1 className="font3">Soft Skills</h1>{" "}
+			</Segment>
+			<Divider section />
+			<Card.Group centered>
 				{softSkills.map(skill => (
 					<Card color={skill.color}>
 						<Card.Content>
