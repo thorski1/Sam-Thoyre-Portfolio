@@ -4,8 +4,15 @@ import {
 	Image,
 	Segment,
 	Icon,
-	Divider
+	Divider,
+	Card
 } from "semantic-ui-react";
+import { Buttons } from "../Projects/Projects.Buttons";
+import { projects } from "./HomePage.Projects";
+
+const styles = {
+	fontSize: "50px"
+};
 
 const HomePage = () => (
 	<Grid stackable columns={3}>
@@ -23,7 +30,7 @@ const HomePage = () => (
 						<h2 className="font2">
 							Web Developer Extraordinaire
 						</h2>
-						<Divider section/>
+						<Divider section />
 						<Icon color="yellow" name="js" size="huge" />
 						<Icon color="blue" name="react" size="huge" />
 						<Icon
@@ -36,6 +43,33 @@ const HomePage = () => (
 						<Icon color="pink" name="sass" size="huge" />
 						<Icon color="red" name="git" size="huge" />
 						<Icon color="green" name="vuejs" size="huge" />
+					</Segment>
+					<Divider section />
+					<Segment tertiary textAlign="center">
+						<h1 className="font3" style={styles}>
+							Notable Projects
+						</h1>
+					</Segment>
+					<Divider section />
+					<Segment secondary>
+						<Card.Group centered>
+							{projects.map(project => (
+								<Card
+									color={project.color}
+									href={project.siteURL}
+									image={project.image}
+									header={project.name}
+									description={project.description}
+									extra={
+										<Buttons
+											github={project.githubURL}
+											site={project.siteURL}
+											color={project.color}
+										/>
+									}
+								/>
+							))}
+						</Card.Group>
 					</Segment>
 				</Segment>
 			</Grid.Column>

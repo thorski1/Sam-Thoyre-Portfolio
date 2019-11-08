@@ -36,6 +36,7 @@ export default function Skills() {
 											total="100"
 											progress="percent"
 											color={skill.color}
+											active
 										/>
 									</Feed.Content>
 								</Feed.Event>
@@ -70,6 +71,7 @@ export default function Skills() {
 											total="100"
 											progress="percent"
 											color={skill.color}
+											active
 										/>
 									</Feed.Content>
 								</Feed.Event>
