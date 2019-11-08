@@ -3,7 +3,6 @@ import {
 	Grid,
 	Image,
 	Segment,
-	Header,
 	Icon,
 	Divider
 } from "semantic-ui-react";

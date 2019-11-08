@@ -4,7 +4,6 @@ import {
 	Progress,
 	Card,
 	Feed,
-	Header,
 	Segment,
 	Divider
 } from "semantic-ui-react";

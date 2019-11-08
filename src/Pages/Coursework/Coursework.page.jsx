@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Statistic, Icon, Divider, Segment, Header } from "semantic-ui-react";
+import { Card, Statistic, Icon, Divider, Segment} from "semantic-ui-react";
 import { courses } from "./coursework";
 
 export default function Coursework() {
