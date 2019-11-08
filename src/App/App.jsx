@@ -1,26 +1,33 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import HomePage from "./Pages/HomePage/HomePage.page";
-import Skills from "./Pages/Skills/Skills.page";
-import Coursework from "./Pages/Coursework/Coursework.page";
-import Projects from "./Pages/Projects/Projects.page";
-import About from "./Pages/About/About.page";
-import Contact from "./Pages/Contact/Contact.page";
+import Navbar from "../Components/Navbar/Navbar";
+import HomePage from "../Pages/HomePage/HomePage.page";
+import Skills from "../Pages/Skills/Skills.page";
+import Coursework from "../Pages/Coursework/Coursework.page";
+import Projects from "../Pages/Projects/Projects.page";
+import About from "../Pages/About/About.page";
+import Contact from "../Pages/Contact/Contact.page";
 import {
 	TransitionGroup,
 	CSSTransition
 } from "react-transition-group";
-import Page from "./Page";
+import Page from "../Components/Page/Page";
 import {
 	Switch,
 	Route
 } from "react-router-dom";
 
 class App extends Component {
+	state = {
+		activeItem: ""
+	};
+
+	handleItemClick = (e, { name }) =>
+		this.setState({ activeItem: name });
+	
 	render() {
+		const { activeItem } = this.state;
 		return (
 			<div>
-				
 				<Route
 					render={({ location }) => (
 						<TransitionGroup>
@@ -30,12 +37,13 @@ class App extends Component {
 								timeout={1000}
 							>
 								<Switch>
+									
 									<Route
 										exact
 										path="/"
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<HomePage {...routeProps} />
 											</Page>
 										)}
@@ -45,7 +53,7 @@ class App extends Component {
 										path="/skills"
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<Skills {...routeProps} />
 											</Page>
 										)}
@@ -55,7 +63,7 @@ class App extends Component {
 										path="/projects"
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<Projects {...routeProps} />
 											</Page>
 										)}
@@ -65,7 +73,7 @@ class App extends Component {
 										path="/coursework"
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<Coursework {...routeProps} />
 											</Page>
 										)}
@@ -75,7 +83,7 @@ class App extends Component {
 										path="/about"
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<About {...routeProps} />
 											</Page>
 										)}
@@ -85,7 +93,7 @@ class App extends Component {
 										path="/contact"
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<Contact {...routeProps} />
 											</Page>
 										)}
@@ -93,7 +101,7 @@ class App extends Component {
 									<Route
 										render={routeProps => (
 											<Page>
-												<Navbar />
+												<Navbar activeItem={activeItem} />
 												<HomePage {...routeProps} />
 											</Page>
 										)}
