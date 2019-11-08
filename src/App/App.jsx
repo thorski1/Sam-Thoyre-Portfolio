@@ -11,11 +11,8 @@ import {
 	CSSTransition
 } from "react-transition-group";
 import Page from "../Components/Page/Page";
-import {
-	Switch,
-	Route
-} from "react-router-dom";
-import './App.css'
+import { Switch, Route } from "react-router-dom";
+import "./App.css";
 
 class App extends Component {
 	state = {
@@ -24,11 +21,12 @@ class App extends Component {
 
 	handleItemClick = (e, { name }) =>
 		this.setState({ activeItem: name });
-	
+
 	render() {
 		const { activeItem } = this.state;
 		return (
 			<div>
+				<Navbar activeItem={activeItem} />
 				<Route
 					render={({ location }) => (
 						<TransitionGroup>
@@ -38,13 +36,11 @@ class App extends Component {
 								timeout={1000}
 							>
 								<Switch>
-									
 									<Route
 										exact
 										path="/"
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<HomePage {...routeProps} />
 											</Page>
 										)}
@@ -54,7 +50,6 @@ class App extends Component {
 										path="/skills"
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<Skills {...routeProps} />
 											</Page>
 										)}
@@ -64,7 +59,6 @@ class App extends Component {
 										path="/projects"
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<Projects {...routeProps} />
 											</Page>
 										)}
@@ -74,7 +68,6 @@ class App extends Component {
 										path="/coursework"
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<Coursework {...routeProps} />
 											</Page>
 										)}
@@ -84,7 +77,6 @@ class App extends Component {
 										path="/about"
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<About {...routeProps} />
 											</Page>
 										)}
@@ -94,7 +86,6 @@ class App extends Component {
 										path="/contact"
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<Contact {...routeProps} />
 											</Page>
 										)}
@@ -102,7 +93,6 @@ class App extends Component {
 									<Route
 										render={routeProps => (
 											<Page>
-												<Navbar activeItem={activeItem} />
 												<HomePage {...routeProps} />
 											</Page>
 										)}

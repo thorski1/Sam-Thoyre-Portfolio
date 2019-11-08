@@ -15,7 +15,7 @@ export default class Navbar extends Component {
 		const { activeItem } = this.props;
 
 		return (
-			<Menu pointing color="blue" inverted stackable>
+			<Menu color="blue" inverted stackable>
 				{buttons.map(item => (
 					<Link to={item.to}>
 						<Menu.Item
