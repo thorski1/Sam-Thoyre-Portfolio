@@ -1,9 +1,8 @@
 import React from "react";
-import { Grid, Image, Segment } from "semantic-ui-react";
+import { Image, Segment } from "semantic-ui-react";
+import SplitText from "react-pose-text";
+import { charPoses } from "../../../PoseFunctions/PoseFunctions";
 
-const fontSize = {
-	fontSize: "20px"
-};
 
 export const ImageSegment = () => (
 	<Segment
@@ -18,8 +17,13 @@ export const ImageSegment = () => (
 			rounded
 			src="/assets/SharkNMe.jpg"
 		/>
-		<h3 className="font3" style={fontSize}>
+		<SplitText
+			initialPose="exit"
+			pose="enter"
+			charPoses={charPoses}
+			className="font5"
+		>
 			Me and my little baby shark hanging out
-		</h3>
+		</SplitText>
 	</Segment>
 );

@@ -4,7 +4,7 @@ import {
 	Container,
 	Divider
 } from "semantic-ui-react";
-import Intro from './About.components/About.Intro'
+import {Intro} from './About.components/About.Intro'
 import Content from './About.components/About.Content'
 
 export default function About() {

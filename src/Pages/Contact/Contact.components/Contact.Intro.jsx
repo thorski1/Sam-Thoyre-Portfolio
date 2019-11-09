@@ -1,9 +1,7 @@
 import React from "react";
-import {
-	Header,
-	Segment
-} from "semantic-ui-react";
-
+import { Header, Segment } from "semantic-ui-react";
+import SplitText from "react-pose-text";
+import { charPoses } from '../../../PoseFunctions/PoseFunctions'
 
 export const Intro = () => (
 	<Segment
@@ -13,7 +11,14 @@ export const Intro = () => (
 		tertiary
 		textAlign="center"
 	>
-		<h1 className="font3">Get in touch with me!</h1>
+		<SplitText
+			initialPose="exit"
+			pose="enter"
+			charPoses={charPoses}
+			className="font3"
+		>
+			Get in touch with me!
+		</SplitText>
 		<Segment>
 			<Header as="h3">
 				I am looking for new opportunities! If you would

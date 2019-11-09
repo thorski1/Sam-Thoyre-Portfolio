@@ -35,3 +35,10 @@
     color: rgb(8, 10, 44);
     letter-spacing: .07em;
 }
+
+.font5 {
+    font-family: 'Baloo Bhaina', cursive;
+    letter-spacing: .1em;
+    font-size: 22px;
+    margin-top: 30px;
+}

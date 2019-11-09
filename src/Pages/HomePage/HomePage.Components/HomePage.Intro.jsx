@@ -1,12 +1,5 @@
 import React from "react";
-import {
-	Grid,
-	Image,
-	Segment,
-	Icon,
-	Divider,
-	Card
-} from "semantic-ui-react";
+import { Segment, Icon, Divider } from "semantic-ui-react";
 
 import { icons } from "../HomePage.Icons";
 
