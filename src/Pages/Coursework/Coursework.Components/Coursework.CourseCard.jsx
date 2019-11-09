@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
 import { courses } from "../coursework";
-import LazyLoad from "react-lazyload";
 
 export default function CourseCard() {
 	return (
