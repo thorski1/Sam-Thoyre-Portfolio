@@ -12,7 +12,7 @@
 }
 
 .font1 {
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: .2em;
     margin-bottom: -0.5em;
@@ -25,7 +25,13 @@
 }
 
 .font3 {
-    font-family: 'Aclonica', cursive;
+    font-family: 'Baloo Bhaina', cursive;
     letter-spacing: .1em;
-    font-size: 35px;
+    font-size: 40px;
+}
+
+.font4 {
+    font-family: 'Baloo Bhaina', cursive;
+    color: rgb(8, 10, 44);
+    letter-spacing: .07em;
 }

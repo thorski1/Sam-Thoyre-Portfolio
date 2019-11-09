@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import { buttons } from './Navbar.content'
 
 export default class Navbar extends Component {
-	// state = {
-	// 	activeItem: ""
-	// };
 
-	// handleItemClick = (e, { name }) =>
-	// 	this.setState({ activeItem: name });
 
 	render() {
 		const { activeItem } = this.props;

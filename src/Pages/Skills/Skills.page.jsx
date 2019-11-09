@@ -1,85 +1,28 @@
 import React from "react";
-import { technicalSkills, softSkills } from "./skills";
-import {
-	Progress,
-	Card,
-	Feed,
-	Segment,
-	Divider
-} from "semantic-ui-react";
+import { Divider } from "semantic-ui-react";
+
+import { Title } from "../../Components/Title/Title";
+import TechnicalSkills from "./Skills.Components/Skills.TechnicalSkills";
+import SoftSkills from "./Skills.Components/Skills.SoftSkills";
 
 export default function Skills() {
 	return (
 		<div className="container">
-			<Segment
-				inverted
+			<Title
+				title="Technical Skills"
 				color="blue"
-				tertiary
-				textAlign="center"
-			>
-				<h1 className="font3">Technical Skills</h1>
-			</Segment>
+				inverted="true"
+			/>
 			<Divider section />
-			<Card.Group centered>
-				{technicalSkills.map(skill => (
-					<Card color={skill.color}>
-						<Card.Content>
-							<Card.Header>{skill.skill}</Card.Header>
-						</Card.Content>
-						<Card.Content>
-							<Feed>
-								<Feed.Event>
-									<Feed.Label image={skill.image} />
-									<Feed.Content>
-										<Progress
-											value={skill.value}
-											total="100"
-											progress="percent"
-											color={skill.color}
-											active
-										/>
-									</Feed.Content>
-								</Feed.Event>
-							</Feed>
-						</Card.Content>
-					</Card>
-				))}
-			</Card.Group>
+			<TechnicalSkills />
 			<Divider section />
-			<Segment
-				inverted
+			<Title
+				title="Soft Skills"
 				color="blue"
-				tertiary
-				textAlign="center"
-			>
-				<h1 className="font3">Soft Skills</h1>{" "}
-			</Segment>
+				inverted="true"
+			/>
 			<Divider section />
-			<Card.Group centered>
-				{softSkills.map(skill => (
-					<Card color={skill.color}>
-						<Card.Content>
-							<Card.Header>{skill.skill}</Card.Header>
-						</Card.Content>
-						<Card.Content>
-							<Feed>
-								<Feed.Event>
-									<Feed.Label image={skill.image} />
-									<Feed.Content>
-										<Progress
-											value={skill.value}
-											total="100"
-											progress="percent"
-											color={skill.color}
-											active
-										/>
-									</Feed.Content>
-								</Feed.Event>
-							</Feed>
-						</Card.Content>
-					</Card>
-				))}
-			</Card.Group>
+			<SoftSkills />
 		</div>
 	);
 }
