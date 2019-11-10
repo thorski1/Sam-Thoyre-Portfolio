@@ -37,6 +37,12 @@ export const technicalSkills = [
 						image: "/assets/Redux.png"
 					},
 					{
+						skill: "Gatsby",
+						value: 30,
+						color: "purple",
+						image: "/assets/Gatsby.png"
+					},
+					{
 						skill: "VueJS",
 						value: 50,
 						color: "green",
@@ -47,7 +53,7 @@ export const technicalSkills = [
 						value: 70,
 						color: "green",
 						image: "/assets/Nuxt.jpg"
-	},
+					},
 					{
 						skill: "Vuex",
 						value: 50,
@@ -131,130 +137,129 @@ export const technicalSkills = [
 						value: 40,
 						color: "black",
 						image: "/assets/Leaflet.png"
-					},
-					
+					}
 				];
 
 export const softSkills = [
-					{
-						skill: "Communication",
-						value: 100,
-						color: "orange",
-						image: "/assets/communication.png"
-					},
-					{
-						skill: "Planning",
-						value: 100,
-						color: "yellow",
-						image: "/assets/planning.png"
-					},
-					{
-						skill: "Sales",
-						value: 85,
-						color: "blue",
-						image: "/assets/sales.jpg"
-					},
-					{
-						skill: "Management",
-						value: 100,
-						color: "red",
-						image: "/assets/management.png"
-					},
-					{
-						skill: "Teamwork",
-						value: 100,
-						color: "green",
-						image: "/assets/Teamwork.png"
-					},
-					{
-						skill: "Time Management",
-						value: 100,
-						color: "blue",
-						image: "/assets/TimeManagement.png"
-					},
-					{
-						skill: "Work Ethic",
-						value: 100,
-						color: "teal",
-						image: "/assets/WorkEthic.png"
-					},
-					{
-						skill: "Problem Solving",
-						value: 100,
-						color: "pink",
-						image: "/assets/ProblemSolving.png"
-					},
-					{
-						skill: "Interpesonal Skills",
-						value: 100,
-						color: "blue",
-						image: "/assets/InterpersonalSkills.jpg"
-					},
-					{
-						skill: "Adaptability",
-						value: 100,
-						color: "red",
-						image: "/assets/Adaptability.png"
-					},
-					{
-						skill: "Creativity",
-						value: 100,
-						color: "blue",
-						image: "/assets/Creativity.png"
-					},
-					{
-						skill: "Professionalism",
-						value: 100,
-						color: "pink",
-						image: "/assets/Professionalism.png"
-					},
-					{
-						skill: "Friendliness",
-						value: 100,
-						color: "yellow",
-						image: "/assets/Friendliness.png"
-					},
+	{
+		skill: "Communication",
+		value: 100,
+		color: "orange",
+		image: "/assets/communication.png"
+	},
+	{
+		skill: "Planning",
+		value: 100,
+		color: "yellow",
+		image: "/assets/planning.png"
+	},
+	{
+		skill: "Sales",
+		value: 85,
+		color: "blue",
+		image: "/assets/sales.jpg"
+	},
+	{
+		skill: "Management",
+		value: 100,
+		color: "red",
+		image: "/assets/management.png"
+	},
+	{
+		skill: "Teamwork",
+		value: 100,
+		color: "green",
+		image: "/assets/Teamwork.png"
+	},
+	{
+		skill: "Time Management",
+		value: 100,
+		color: "blue",
+		image: "/assets/TimeManagement.png"
+	},
+	{
+		skill: "Work Ethic",
+		value: 100,
+		color: "teal",
+		image: "/assets/WorkEthic.png"
+	},
+	{
+		skill: "Problem Solving",
+		value: 100,
+		color: "pink",
+		image: "/assets/ProblemSolving.png"
+	},
+	{
+		skill: "Interpersonal Skills",
+		value: 100,
+		color: "blue",
+		image: "/assets/InterpersonalSkills.jpg"
+	},
+	{
+		skill: "Adaptability",
+		value: 100,
+		color: "red",
+		image: "/assets/Adaptability.png"
+	},
+	{
+		skill: "Creativity",
+		value: 100,
+		color: "blue",
+		image: "/assets/Creativity.png"
+	},
+	{
+		skill: "Professionalism",
+		value: 100,
+		color: "pink",
+		image: "/assets/Professionalism.png"
+	},
+	{
+		skill: "Friendliness",
+		value: 100,
+		color: "yellow",
+		image: "/assets/Friendliness.png"
+	},
 
-					{
-						skill: "Respect",
-						value: 100,
-						color: "green",
-						image: "/assets/Respect.png"
-					},
-					{
-						skill: "Confidence",
-						value: 100,
-						color: "orange",
-						image: "/assets/Confidence.png"
-					},
-					{
-						skill: "Empathy",
-						value: 100,
-						color: "yellow",
-						image: "/assets/Empathy.jpeg"
-					},
-					{
-						skill: "Mediation",
-						value: 100,
-						color: "black",
-						image: "/assets/Mediation.png"
-					},
-					{
-						skill: "Negotiating",
-						value: 100,
-						color: "red",
-						image: "/assets/Negotiating.png"
-					},
-					{
-						skill: "Curiosity",
-						value: 100,
-						color: "blue",
-						image: "/assets/Curiosity.png"
-					},
-					{
-						skill: "Analysis",
-						value: 100,
-						color: "pink",
-						image: "/assets/Analysis.png"
-					}
-				];
+	{
+		skill: "Respect",
+		value: 100,
+		color: "green",
+		image: "/assets/Respect.png"
+	},
+	{
+		skill: "Confidence",
+		value: 100,
+		color: "orange",
+		image: "/assets/Confidence.png"
+	},
+	{
+		skill: "Empathy",
+		value: 100,
+		color: "yellow",
+		image: "/assets/Empathy.jpeg"
+	},
+	{
+		skill: "Mediation",
+		value: 100,
+		color: "black",
+		image: "/assets/Mediation.png"
+	},
+	{
+		skill: "Negotiating",
+		value: 100,
+		color: "red",
+		image: "/assets/Negotiating.png"
+	},
+	{
+		skill: "Curiosity",
+		value: 100,
+		color: "blue",
+		image: "/assets/Curiosity.png"
+	},
+	{
+		skill: "Analysis",
+		value: 100,
+		color: "pink",
+		image: "/assets/Analysis.png"
+	}
+];
