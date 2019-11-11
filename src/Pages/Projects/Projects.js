@@ -36,8 +36,17 @@ export const projects = [
 		image: "/assets/ColorPalette.png"
 	},
 	{
-		name: "Dad Jokes",
+		name: "Star Wars",
 		color: "yellow",
+		description:
+			"This project calls the Star Wars API and displays information about characters, films, species, starships, vehicles or planets, depending on what page you're on.  I created this using React, Reach Router, and Semantic UI",
+		githubURL: "https://github.com/thorski1/StarWarsReact",
+		siteURL: "https://star-wars.sthoyre.now.sh",
+		image: "/assets/StarWars.png"
+	},
+	{
+		name: "Dad Jokes",
+		color: "green",
 		description:
 			"This app uses React and an API that has a database of cheesy jokes.  This project illustrates how to use lifecycle methods in conjunction with APIs.",
 		githubURL: "https://github.com/thorski1/DadJokesReact",
