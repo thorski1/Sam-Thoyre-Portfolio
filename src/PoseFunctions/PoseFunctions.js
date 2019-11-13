@@ -5,7 +5,7 @@ export const charPoses = {
 		opacity: 1,
 		transition: ({ charInWordIndex }) => ({
 			type: "spring",
-			delay: charInWordIndex * 30,
+			delay: charInWordIndex * 400,
 			stiffness: 500 + charInWordIndex * 150,
 			damping: 15 - charInWordIndex * 1
 		})

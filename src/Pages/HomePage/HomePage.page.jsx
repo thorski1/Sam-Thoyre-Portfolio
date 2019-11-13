@@ -15,6 +15,7 @@ const HomePage = () => (
 	<Grid stackable columns={3}>
 		<Grid.Row centered>
 			<Grid.Column width={10}>
+				
 				<Segment raised inverted color="blue" tertiary>
 					<Image
 						centered
