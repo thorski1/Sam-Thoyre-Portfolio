@@ -182,6 +182,15 @@ export const courses = [
 			"https://frontendmasters.com/courses/intermediate-react-v2/"
 	},
 	{
+		name: "State Management with Redux & MobX",
+		instructor: "Steve Kinney",
+		hours: 5,
+		platform: "Frontend Masters",
+		image: "/assets/ReduxMobX.jpg",
+		color: "orange",
+		link: "https://frontendmasters.com/courses/redux-mobx/"
+	}
+	{
 		name: "Full Stack for Front End Engineers",
 		instructor: "Jem Young",
 		hours: 4,

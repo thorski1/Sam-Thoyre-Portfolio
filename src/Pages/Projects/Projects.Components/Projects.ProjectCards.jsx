@@ -6,9 +6,9 @@ import { Buttons } from "./Projects.Buttons";
 import { projects } from "../Projects";
 
 export default function Cards() {
-    return (
-			<Card.Group centered>
-				{projects.map(project => (
+	return (
+		<Card.Group centered>
+			{projects.map(project => (
 					<Card
 						color={project.color}
 						href={project.siteURL}
@@ -23,7 +23,7 @@ export default function Cards() {
 							/>
 						}
 					/>
-				))}
-			</Card.Group>
-		);
+					))}
+		</Card.Group>
+	);
 }
