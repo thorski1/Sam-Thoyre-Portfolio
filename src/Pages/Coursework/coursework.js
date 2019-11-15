@@ -189,7 +189,7 @@ export const courses = [
 		image: "/assets/ReduxMobX.jpg",
 		color: "orange",
 		link: "https://frontendmasters.com/courses/redux-mobx/"
-	}
+	},
 	{
 		name: "Full Stack for Front End Engineers",
 		instructor: "Jem Young",
