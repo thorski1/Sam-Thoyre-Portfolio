@@ -191,6 +191,15 @@ export const courses = [
 		link: "https://frontendmasters.com/courses/redux-mobx/"
 	},
 	{
+		name: "React Context & Hooks Tutorial",
+		instructor: "Shaun Pelling",
+		hours: 2.5,
+		platform: "Youtube",
+		image: "/assets/ReactHooksContext.png",
+		color: "red",
+		link: "https://www.youtube.com/watch?v=6RhOzQciVwI"
+	},
+	{
 		name: "Full Stack for Front End Engineers",
 		instructor: "Jem Young",
 		hours: 4,
