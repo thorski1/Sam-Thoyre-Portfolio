@@ -210,9 +210,19 @@ export const courses = [
 						hours: 3.5,
 						platform: "Frontend Masters",
 						image: "/assets/GraphQL.jpg",
-						color: "red",
+						color: "pink",
 						link:
 							"https://frontendmasters.com/courses/graphql/"
+					},
+					{
+						name: "GraphQL Full Course - Novice to Expert",
+						instructor: "Shaun Pelling",
+						hours: 4,
+						platform: "Youtube",
+						image: "/assets/GraphQL2.jpg",
+						color: "teal",
+						link:
+							"https://www.youtube.com/watch?v=ed8SzALpx1Q"
 					},
 					{
 						name: "Full Stack for Front End Engineers",
