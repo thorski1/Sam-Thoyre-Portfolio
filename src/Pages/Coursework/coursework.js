@@ -205,6 +205,16 @@ export const courses = [
 							"https://www.youtube.com/watch?v=6RhOzQciVwI"
 					},
 					{
+						name: "Introduction to GraphQL",
+						instructor: "Scott Moss",
+						hours: 3.5,
+						platform: "Frontend Masters",
+						image: "/assets/GraphQL.jpg",
+						color: "red",
+						link:
+							"https://frontendmasters.com/courses/graphql/"
+					},
+					{
 						name: "Full Stack for Front End Engineers",
 						instructor: "Jem Young",
 						hours: 4,
