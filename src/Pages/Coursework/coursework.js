@@ -219,7 +219,7 @@ export const courses = [
 						instructor: "Shaun Pelling",
 						hours: 4,
 						platform: "Youtube",
-						image: "/assets/GraphQL2.jpg",
+						image: "/assets/GraphQL2.jpeg",
 						color: "teal",
 						link:
 							"https://www.youtube.com/watch?v=ed8SzALpx1Q"
