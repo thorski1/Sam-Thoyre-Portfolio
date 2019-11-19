@@ -123,16 +123,7 @@ export const courses = [
 						link:
 							"https://frontendmasters.com/courses/javascript-new-hard-parts/"
 					},
-					{
-						name: "Introduction to Gatsby",
-						instructor: "Jason Lengstorf",
-						hours: 3.75,
-						platform: "Frontend Masters",
-						image: "/assets/JLengstorf.jpg",
-						color: "grey",
-						link:
-							"https://frontendmasters.com/courses/gatsby/"
-					},
+
 					{
 						name: "Mastering Chrome Developer Tools",
 						instructor: "Jon Kuperman",
@@ -223,6 +214,26 @@ export const courses = [
 						color: "teal",
 						link:
 							"https://www.youtube.com/watch?v=ed8SzALpx1Q"
+					},
+					{
+						name: "Introduction to Gatsby",
+						instructor: "Jason Lengstorf",
+						hours: 3.75,
+						platform: "Frontend Masters",
+						image: "/assets/JLengstorf.jpg",
+						color: "grey",
+						link:
+							"https://frontendmasters.com/courses/gatsby/"
+					},
+					{
+						name: "Gatsby JS - The Great Gatsby Bootcamp",
+						instructor: "Andrew Mead",
+						hours: 4.5,
+						platform: "Youtube",
+						image: "/assets/GatsbyBootcamp.jpg",
+						color: "violet",
+						link:
+							"https://www.youtube.com/watch?v=8t0vNu2fCCM"
 					},
 					{
 						name: "Full Stack for Front End Engineers",
