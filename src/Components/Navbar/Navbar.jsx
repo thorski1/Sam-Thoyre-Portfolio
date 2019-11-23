@@ -32,7 +32,7 @@ export default class Navbar extends Component {
 					name="blog"
 					active={activeItem === "blog"}
 					onClick={this.handleItemClick}
-					href="https://thorski1.github.io/ProgressBlog/"
+					href="https://sam-thoyre-progress-blog.netlify.com/"
 				>
 					<Icon
 						color="white"
