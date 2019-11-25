@@ -186,6 +186,17 @@ export const courses = [
 							"https://frontendmasters.com/courses/redux-mobx/"
 					},
 					{
+						name:
+							"Building Applications with React and Redux",
+						instructor: "Cory House",
+						hours: 6.5,
+						platform: "Pluralsight",
+						image: "/assets/ReactRedux.png",
+						color: "violet",
+						link:
+							"https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents"
+					},
+					{
 						name: "React Context & Hooks Tutorial",
 						instructor: "Shaun Pelling",
 						hours: 2.5,
