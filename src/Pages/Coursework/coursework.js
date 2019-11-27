@@ -239,7 +239,7 @@ export const courses = [
 	},
 	{
 		name: "Create a GatsbyJS Blog",
-		instructor: "Classsed",
+		instructor: "Ahmed Hadjou",
 		hours: 4.5,
 		platform: "Youtube",
 		image: "/assets/GatsbyBlogYoutube.jpg",
