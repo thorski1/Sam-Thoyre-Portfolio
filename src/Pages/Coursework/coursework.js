@@ -191,7 +191,7 @@ export const courses = [
 						instructor: "Cory House",
 						hours: 6.5,
 						platform: "Pluralsight",
-						image: "/assets/ReactRedux.png",
+						image: "/assets/ReactReduxCourse.png",
 						color: "violet",
 						link:
 							"https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents"
