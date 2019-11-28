@@ -237,6 +237,16 @@ export const courses = [
 							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_CTiWMQhL6YxX7vZ7z84Zo"
 					},
 					{
+						name: "React GraphQL App Series (MERNG)",
+						instructor: "Ahmed Hadjou",
+						hours: 3.75,
+						platform: "Youtube",
+						image: "/assets/ReactGraphQL.jpeg",
+						color: "green",
+						link:
+							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_pgb-j51QnCEhXNj5oyl8n"
+					},
+					{
 						name: "Introduction to Gatsby",
 						instructor: "Jason Lengstorf",
 						hours: 3.75,
