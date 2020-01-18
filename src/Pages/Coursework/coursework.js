@@ -1,6 +1,15 @@
 /* eslint-disable no-script-url */
 export const courses = [
 					{
+						name: "CS Prep",
+						instructor: "Codesmith",
+						hours: 30,
+						platform: "Codesmith",
+						image: "/assets/CSPrep.jpg",
+						color: "red",
+						link: "https://www.codesmith.io/bootcamp-prep"
+					},
+					{
 						name: "The New Modern JavaScript Bootcamp",
 						instructor: "Colt Steele & Stephen Grider",
 						hours: 52,
@@ -112,6 +121,16 @@ export const courses = [
 						color: "yellow",
 						link:
 							"https://www.pluralsight.com/courses/javascript-objects-prototypes"
+					},
+					{
+						name: "Modern React with Redux",
+						instructor: "Stephen Grider",
+						hours: 30,
+						platform: "Udemy",
+						image: "/assets/modernReactWithRedux.jpeg",
+						color: "blue",
+						link:
+							"https://www.udemy.com/course/react-redux/"
 					},
 					{
 						name: "The Modern React Bootcamp",
