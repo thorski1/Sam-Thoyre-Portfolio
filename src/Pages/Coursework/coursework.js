@@ -225,6 +225,16 @@ export const courses = [
 							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3-q2TPHYhlppM3UcevsqFRf"
 					},
 					{
+						name: "React Native - The Practical Guide",
+						instructor: "Maximilian Schwarzmüeller",
+						hours: 30.5,
+						platform: "Udemy",
+						image: "/assets/RNPracticalGuide.jpg",
+						color: "blue",
+						link:
+							"https://www.udemy.com/course/react-native-the-practical-guide/"
+					},
+					{
 						name: "Introduction to GraphQL",
 						instructor: "Scott Moss",
 						hours: 3.5,
