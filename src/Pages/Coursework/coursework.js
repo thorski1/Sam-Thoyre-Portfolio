@@ -235,6 +235,16 @@ export const courses = [
 							"https://www.udemy.com/course/react-native-the-practical-guide/"
 					},
 					{
+						name: "The Modern GraphQL Bootcamp",
+						instructor: "Andrew Mead",
+						hours: 23.5,
+						platform: "Udemy",
+						image: "/assets/modern-graphql-bootcamp.jpg",
+						color: "blue",
+						link:
+							"https://www.udemy.com/course/graphql-bootcamp/"
+					},
+					{
 						name: "Introduction to GraphQL",
 						instructor: "Scott Moss",
 						hours: 3.5,
