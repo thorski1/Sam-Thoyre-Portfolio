@@ -123,6 +123,16 @@ export const courses = [
 							"https://www.pluralsight.com/courses/javascript-objects-prototypes"
 					},
 					{
+						name: "jQuery Crash Course",
+						instructor: "Brad Traversy",
+						hours: 1.6,
+						platform: "Youtube",
+						image: "/assets/jquery.png",
+						color: "orange",
+						link:
+							"https://www.youtube.com/playlist?list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc"
+					},
+					{
 						name: "Modern React with Redux",
 						instructor: "Stephen Grider",
 						hours: 30,
