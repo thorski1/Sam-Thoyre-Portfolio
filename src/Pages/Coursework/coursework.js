@@ -7,7 +7,7 @@ export const courses = [
 						platform: "Codesmith",
 						image: "/assets/CSPrep.jpg",
 						color: "red",
-						link: "https://www.codesmith.io/bootcamp-prep"
+						link: "https://www.codesmith.io/bootcamp-prep",
 					},
 					{
 						name: "The New Modern JavaScript Bootcamp",
@@ -17,7 +17,7 @@ export const courses = [
 						image: "/assets/NewModernJavaScript.jpg",
 						color: "blue",
 						link:
-							"https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
+							"https://www.udemy.com/course/javascript-beginners-complete-tutorial/",
 					},
 					{
 						name: "The Modern JavaScript Bootcamp",
@@ -27,7 +27,7 @@ export const courses = [
 						image: "/assets/ModernJavaScript.jpg",
 						color: "purple",
 						link:
-							"https://www.udemy.com/course/modern-javascript/"
+							"https://www.udemy.com/course/modern-javascript/",
 					},
 					{
 						name:
@@ -39,7 +39,7 @@ export const courses = [
 							"/assets/JavaScriptFundamentalToFunctional.jpg",
 						color: "blue",
 						link:
-							"https://frontendmasters.com/courses/js-fundamentals-functional-v2/"
+							"https://frontendmasters.com/courses/js-fundamentals-functional-v2/",
 					},
 					{
 						name: "Getting Started with JavaScript",
@@ -49,7 +49,7 @@ export const courses = [
 						image: "/assets/GettingStartedWJS.jpg",
 						color: "yellow",
 						link:
-							"https://frontendmasters.com/courses/getting-started-javascript-v2/"
+							"https://frontendmasters.com/courses/getting-started-javascript-v2/",
 					},
 					{
 						name: "Advanced JavaScript Concepts",
@@ -59,7 +59,7 @@ export const courses = [
 						image: "/assets/advancedJavaScriptConcepts.jpg",
 						color: "blue",
 						link:
-							"https://www.udemy.com/course/advanced-javascript-concepts/"
+							"https://www.udemy.com/course/advanced-javascript-concepts/",
 					},
 					{
 						name: "JavaScript: The Hard Parts",
@@ -69,7 +69,7 @@ export const courses = [
 						image: "/assets/JSHardParts.jpg",
 						color: "grey",
 						link:
-							"https://frontendmasters.com/courses/javascript-hard-parts/"
+							"https://frontendmasters.com/courses/javascript-hard-parts/",
 					},
 					{
 						name: "Hard Parts: Functional JS Foundations",
@@ -79,7 +79,7 @@ export const courses = [
 						image: "/assets/HPFunctionalJS.jpg",
 						color: "blue",
 						link:
-							"https://frontendmasters.com/courses/functional-js-fundamentals/"
+							"https://frontendmasters.com/courses/functional-js-fundamentals/",
 					},
 					{
 						name:
@@ -90,7 +90,7 @@ export const courses = [
 						image: "/assets/HardPartsOOP.png",
 						color: "orange",
 						link:
-							"https://frontendmasters.com/courses/object-oriented-js/"
+							"https://frontendmasters.com/courses/object-oriented-js/",
 					},
 					{
 						name: "JavaScript: The New Hard Parts",
@@ -100,7 +100,7 @@ export const courses = [
 						image: "/assets/NewHardParts.png",
 						color: "red",
 						link:
-							"https://frontendmasters.com/courses/javascript-new-hard-parts/"
+							"https://frontendmasters.com/courses/javascript-new-hard-parts/",
 					},
 					{
 						name: "JavaScript: Getting Started",
@@ -110,7 +110,7 @@ export const courses = [
 						image: "/assets/JSGettingStarted.jpg",
 						color: "yellow",
 						link:
-							"https://www.pluralsight.com/courses/javascript-getting-started"
+							"https://www.pluralsight.com/courses/javascript-getting-started",
 					},
 					{
 						name: "JavaScript Fundamentals",
@@ -120,7 +120,7 @@ export const courses = [
 						image: "/assets/JSFundamentals.jpg",
 						color: "yellow",
 						link:
-							"https://www.pluralsight.com/courses/javascript-fundamentals"
+							"https://www.pluralsight.com/courses/javascript-fundamentals",
 					},
 					{
 						name: "JavaScript Objects and Prototypes",
@@ -130,7 +130,7 @@ export const courses = [
 						image: "/assets/JSObjectsPrototypes.jpg",
 						color: "yellow",
 						link:
-							"https://www.pluralsight.com/courses/javascript-objects-prototypes"
+							"https://www.pluralsight.com/courses/javascript-objects-prototypes",
 					},
 					{
 						name:
@@ -141,7 +141,17 @@ export const courses = [
 						image: "/assets/TypeScriptGrider.jpg",
 						color: "blue",
 						link:
-							"https://www.udemy.com/course/typescript-the-complete-developers-guide/"
+							"https://www.udemy.com/course/typescript-the-complete-developers-guide/",
+					},
+					{
+						name: "Understanding TypeScript 2020 Edition",
+						instructor: "Maximilian Schwarzmüller",
+						hours: 15,
+						platform: "Udemy",
+						image: "/assets/TypeScriptSchwarzmuller.jpg",
+						color: "blue",
+						link:
+							"https://www.udemy.com/course/understanding-typescript/",
 					},
 					{
 						name: "jQuery Crash Course",
@@ -151,7 +161,7 @@ export const courses = [
 						image: "/assets/jquery.png",
 						color: "orange",
 						link:
-							"https://www.youtube.com/playlist?list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc"
+							"https://www.youtube.com/playlist?list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc",
 					},
 					{
 						name: "Modern React with Redux",
@@ -161,7 +171,7 @@ export const courses = [
 						image: "/assets/modernReactWithRedux.jpeg",
 						color: "blue",
 						link:
-							"https://www.udemy.com/course/react-redux/"
+							"https://www.udemy.com/course/react-redux/",
 					},
 					{
 						name: "The Modern React Bootcamp",
@@ -171,7 +181,7 @@ export const courses = [
 						image: "/assets/TMRB.jpg",
 						color: "pink",
 						link:
-							"https://www.udemy.com/course/modern-react-bootcamp/"
+							"https://www.udemy.com/course/modern-react-bootcamp/",
 					},
 					{
 						name: "Complete React Developer in 2019",
@@ -181,7 +191,7 @@ export const courses = [
 						image: "/assets/CRD2019.jpg",
 						color: "purple",
 						link:
-							"https://www.udemy.com/course/complete-react-developer-zero-to-mastery/"
+							"https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
 					},
 					{
 						name:
@@ -192,7 +202,7 @@ export const courses = [
 						image: "/assets/NCCourse.jpg",
 						color: "green",
 						link:
-							"https://www.udemy.com/course/build-an-app-with-react-redux-and-firestore-from-scratch/"
+							"https://www.udemy.com/course/build-an-app-with-react-redux-and-firestore-from-scratch/",
 					},
 					{
 						name: "Complete Intro to React",
@@ -202,7 +212,7 @@ export const courses = [
 						image: "/assets/CompleteIntroToReact.png",
 						color: "blue",
 						link:
-							"https://frontendmasters.com/courses/complete-react-v5/"
+							"https://frontendmasters.com/courses/complete-react-v5/",
 					},
 					{
 						name: "Intermediate React",
@@ -212,7 +222,7 @@ export const courses = [
 						image: "/assets/IntermediateReact.png",
 						color: "green",
 						link:
-							"https://frontendmasters.com/courses/intermediate-react-v2/"
+							"https://frontendmasters.com/courses/intermediate-react-v2/",
 					},
 					{
 						name: "State Management with Redux & MobX",
@@ -222,7 +232,7 @@ export const courses = [
 						image: "/assets/ReduxMobX.jpg",
 						color: "orange",
 						link:
-							"https://frontendmasters.com/courses/redux-mobx/"
+							"https://frontendmasters.com/courses/redux-mobx/",
 					},
 					{
 						name:
@@ -233,7 +243,7 @@ export const courses = [
 						image: "/assets/ReactReduxCourse.png",
 						color: "violet",
 						link:
-							"https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents"
+							"https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
 					},
 					{
 						name: "React Context & Hooks Tutorial",
@@ -243,7 +253,7 @@ export const courses = [
 						image: "/assets/ReactHooksContext.png",
 						color: "red",
 						link:
-							"https://www.youtube.com/watch?v=6RhOzQciVwI"
+							"https://www.youtube.com/watch?v=6RhOzQciVwI",
 					},
 					{
 						name: "React Hooks Series",
@@ -253,7 +263,7 @@ export const courses = [
 						image: "/assets/ReactHooksSeries.jpg",
 						color: "yellow",
 						link:
-							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3-q2TPHYhlppM3UcevsqFRf"
+							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3-q2TPHYhlppM3UcevsqFRf",
 					},
 					{
 						name: "React Native - The Practical Guide",
@@ -263,7 +273,7 @@ export const courses = [
 						image: "/assets/RNPracticalGuide.jpg",
 						color: "blue",
 						link:
-							"https://www.udemy.com/course/react-native-the-practical-guide/"
+							"https://www.udemy.com/course/react-native-the-practical-guide/",
 					},
 					{
 						name: "The Modern GraphQL Bootcamp",
@@ -273,7 +283,7 @@ export const courses = [
 						image: "/assets/modern-graphql-bootcamp.jpg",
 						color: "blue",
 						link:
-							"https://www.udemy.com/course/graphql-bootcamp/"
+							"https://www.udemy.com/course/graphql-bootcamp/",
 					},
 					{
 						name: "Introduction to GraphQL",
@@ -283,7 +293,7 @@ export const courses = [
 						image: "/assets/GraphQL.jpg",
 						color: "pink",
 						link:
-							"https://frontendmasters.com/courses/graphql/"
+							"https://frontendmasters.com/courses/graphql/",
 					},
 					{
 						name: "GraphQL Full Course - Novice to Expert",
@@ -293,7 +303,7 @@ export const courses = [
 						image: "/assets/GraphQL2.jpeg",
 						color: "teal",
 						link:
-							"https://www.youtube.com/watch?v=ed8SzALpx1Q"
+							"https://www.youtube.com/watch?v=ed8SzALpx1Q",
 					},
 					{
 						name: "GraphQL Server Series (MERNG)",
@@ -303,7 +313,7 @@ export const courses = [
 						image: "/assets/GraphQLServerSeries.jpg",
 						color: "green",
 						link:
-							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_CTiWMQhL6YxX7vZ7z84Zo"
+							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_CTiWMQhL6YxX7vZ7z84Zo",
 					},
 					{
 						name: "React GraphQL App Series (MERNG)",
@@ -313,7 +323,7 @@ export const courses = [
 						image: "/assets/ReactGraphQL.jpeg",
 						color: "green",
 						link:
-							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_pgb-j51QnCEhXNj5oyl8n"
+							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_pgb-j51QnCEhXNj5oyl8n",
 					},
 					{
 						name: "Introduction to Gatsby",
@@ -323,7 +333,7 @@ export const courses = [
 						image: "/assets/JLengstorf.jpg",
 						color: "grey",
 						link:
-							"https://frontendmasters.com/courses/gatsby/"
+							"https://frontendmasters.com/courses/gatsby/",
 					},
 					{
 						name: "Gatsby JS - The Great Gatsby Bootcamp",
@@ -333,7 +343,7 @@ export const courses = [
 						image: "/assets/GatsbyBootcamp.jpg",
 						color: "violet",
 						link:
-							"https://www.youtube.com/watch?v=8t0vNu2fCCM"
+							"https://www.youtube.com/watch?v=8t0vNu2fCCM",
 					},
 					{
 						name: "Create a GatsbyJS Blog",
@@ -343,7 +353,7 @@ export const courses = [
 						image: "/assets/GatsbyBlogYoutube.jpg",
 						color: "blue",
 						link:
-							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_x-jXerCYnl7jftCSxQkPV"
+							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_x-jXerCYnl7jftCSxQkPV",
 					},
 					{
 						name: "Full Stack for Front End Engineers",
@@ -353,7 +363,7 @@ export const courses = [
 						image: "/assets/FullStack1.jpg",
 						color: "red",
 						link:
-							"https://frontendmasters.com/courses/full-stack/"
+							"https://frontendmasters.com/courses/full-stack/",
 					},
 					{
 						name: "Full Stack for Front-Ends Part 2",
@@ -363,7 +373,7 @@ export const courses = [
 						image: "/assets/FullStack2.png",
 						color: "purple",
 						link:
-							"https://frontendmasters.com/courses/full-stack-v2/"
+							"https://frontendmasters.com/courses/full-stack-v2/",
 					},
 					{
 						name: "Introduction to Node.js",
@@ -373,7 +383,7 @@ export const courses = [
 						image: "/assets/IntroToNode.jpg",
 						color: "green",
 						link:
-							"https://frontendmasters.com/courses/node-js/"
+							"https://frontendmasters.com/courses/node-js/",
 					},
 					{
 						name: "VueJS 2 – The Complete Guide",
@@ -383,7 +393,7 @@ export const courses = [
 						image: "/assets/VueJS2Course.jpg",
 						color: "green",
 						link:
-							"https://www.udemy.com/course/vuejs-2-the-complete-guide/"
+							"https://www.udemy.com/course/vuejs-2-the-complete-guide/",
 					},
 					{
 						name: "Mastering Chrome Developer Tools",
@@ -393,7 +403,7 @@ export const courses = [
 						image: "/assets/ChromeDevTools.jpg",
 						color: "blue",
 						link:
-							"https://frontendmasters.com/courses/chrome-dev-tools-v2/"
+							"https://frontendmasters.com/courses/chrome-dev-tools-v2/",
 					},
 					{
 						name:
@@ -404,7 +414,7 @@ export const courses = [
 						image: "/assets/CSSGridFlexbox.png",
 						color: "grey",
 						link:
-							"https://frontendmasters.com/courses/css-grids-flexbox/"
+							"https://frontendmasters.com/courses/css-grids-flexbox/",
 					},
 					{
 						name: "Website Accessibility",
@@ -414,7 +424,7 @@ export const courses = [
 						image: "/assets/WebsiteAccessibility.jpg",
 						color: "green",
 						link:
-							"https://frontendmasters.com/courses/web-accessibility/"
+							"https://frontendmasters.com/courses/web-accessibility/",
 					},
 					{
 						name: "Visual Studio Code Can Do That?",
@@ -424,7 +434,7 @@ export const courses = [
 						image: "/assets/VSCode.png",
 						color: "red",
 						link:
-							"https://frontendmasters.com/courses/customize-vs-code/"
+							"https://frontendmasters.com/courses/customize-vs-code/",
 					},
 					{
 						name:
@@ -435,7 +445,7 @@ export const courses = [
 						image: "/assets/HTMLCSSJS.jpeg",
 						color: "red",
 						link:
-							"https://www.pluralsight.com/courses/html-css-javascript-big-picture"
+							"https://www.pluralsight.com/courses/html-css-javascript-big-picture",
 					},
 					{
 						name: "The Web Developer Bootcamp",
@@ -445,7 +455,7 @@ export const courses = [
 						image: "/assets/WDB.jpg",
 						color: "red",
 						link:
-							"https://www.udemy.com/course/the-web-developer-bootcamp/"
+							"https://www.udemy.com/course/the-web-developer-bootcamp/",
 					},
 					{
 						name: "Complete Intro to Web Development",
@@ -455,7 +465,7 @@ export const courses = [
 						image: "/assets/CompleteIntro.jpg",
 						color: "blue",
 						link:
-							"https://frontendmasters.com/courses/web-development-v2/"
+							"https://frontendmasters.com/courses/web-development-v2/",
 					},
 					{
 						name: "Modern Search Engine Optimization",
@@ -465,6 +475,6 @@ export const courses = [
 						image: "/assets/ModernSEO.jpg",
 						color: "teal",
 						link:
-							"https://frontendmasters.com/courses/modern-seo/"
-					}
+							"https://frontendmasters.com/courses/modern-seo/",
+					},
 				];
