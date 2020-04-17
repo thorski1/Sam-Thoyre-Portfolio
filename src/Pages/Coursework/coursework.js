@@ -406,6 +406,16 @@ export const courses = [
 							"https://frontendmasters.com/courses/chrome-dev-tools-v2/",
 					},
 					{
+						name: "Advanced CSS and Sass",
+						instructor: "Jonas Schmedtmann",
+						hours: 28,
+						platform: "Udemy",
+						image: "/assets/advancedCSSSass.jpg",
+						color: "pink",
+						link:
+							"https://www.udemy.com/course/advanced-css-and-sass/",
+					},
+					{
 						name:
 							"CSS Grids and Flexbox for Responsive Web Design",
 						instructor: "Jen Kramer",
