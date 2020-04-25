@@ -406,6 +406,16 @@ export const courses = [
 							"https://frontendmasters.com/courses/chrome-dev-tools-v2/",
 					},
 					{
+						name: "CSS - The Complete Guide",
+						instructor: "Maximilian Schwarzmueller",
+						hours: 23,
+						platform: "Udemy",
+						image: "/assets/CSSComplete.jpg",
+						color: "blue",
+						link:
+							"https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+					},
+					{
 						name: "Advanced CSS and Sass",
 						instructor: "Jonas Schmedtmann",
 						hours: 28,
