@@ -266,6 +266,17 @@ export const courses = [
 							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3-q2TPHYhlppM3UcevsqFRf",
 					},
 					{
+						name:
+							"The Complete React Native + Hooks Course",
+						instructor: "Stephen Grider",
+						hours: 22,
+						platform: "Udemy",
+						image: "/assets/ReactNativeHooks.jpg",
+						color: "blue",
+						link:
+							"https://www.udemy.com/course/the-complete-react-native-and-redux-course/",
+					},
+					{
 						name: "React Native - The Practical Guide",
 						instructor: "Maximilian Schwarzmüeller",
 						hours: 30.5,
