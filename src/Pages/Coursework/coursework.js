@@ -372,7 +372,7 @@ export const courses = [
 						hours: 49,
 						platform: "Udemy",
 						image: "/assets/Microservices.jpg",
-						color: "purple",
+						color: "blue",
 						link:
 							"https://www.udemy.com/course/microservices-with-node-js-and-react/",
 					},
