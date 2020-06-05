@@ -367,6 +367,16 @@ export const courses = [
 							"https://www.youtube.com/playlist?list=PLMhAeHCz8S3_x-jXerCYnl7jftCSxQkPV",
 					},
 					{
+						name: "Microservices with Node JS and React",
+						instructor: "Stephen Grider",
+						hours: 49,
+						platform: "Udemy",
+						image: "/assets/Microservices.jpg",
+						color: "purple",
+						link:
+							"https://www.udemy.com/course/microservices-with-node-js-and-react/",
+					},
+					{
 						name: "Full Stack for Front End Engineers",
 						instructor: "Jem Young",
 						hours: 4,
