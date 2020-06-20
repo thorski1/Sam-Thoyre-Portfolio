@@ -7,7 +7,7 @@ export const projects = [
 							"https://github.com/thorski1/CodePartyReact",
 						siteURL:
 							"https://codeparty-c6656.firebaseapp.com",
-						image: "/assets/CodeParty.png"
+						image: "/assets/CodeParty.png",
 					},
 					{
 						name: "Progress Blog",
@@ -17,7 +17,7 @@ export const projects = [
 							"https://github.com/thorski1/New-Gatsby-Progress-Blog",
 						siteURL:
 							"https://sam-thoyre-progress-blog.netlify.com/",
-						image: "/assets/ProgressBlog2.png"
+						image: "/assets/ProgressBlog2.png",
 					},
 					{
 						name: "E-Commerce Clothing Store",
@@ -28,7 +28,18 @@ export const projects = [
 							"https://github.com/thorski1/ECommerceClothingReact",
 						siteURL:
 							"https://sams-crwn-clothing.herokuapp.com/",
-						image: "/assets/CRWN.png"
+						image: "/assets/CRWN.png",
+					},
+					{
+						name: "Find Your Superhero",
+						color: "blue",
+						description:
+							"This app was built using React with TypeScript. State is primarily managed with the Context/Reducer pattern.",
+						githubURL:
+							"https://github.com/thorski1/Superheroes",
+						siteUrl:
+							"https://find-your-superhero.netlify.app/",
+						image: "/assets/superhero-project.png",
 					},
 					{
 						name: "The News",
@@ -38,7 +49,7 @@ export const projects = [
 						githubURL:
 							"https://github.com/thorski1/TheNewsReact",
 						siteURL: "https://the-simple-news.netlify.com",
-						image: "/assets/TheNews.png"
+						image: "/assets/TheNews.png",
 					},
 					{
 						name: "Social Media Comment Board",
@@ -49,7 +60,7 @@ export const projects = [
 							"https://github.com/thorski1/MERNG-Client",
 						siteURL:
 							"https://friendly-lamport-7b2a3f.netlify.com/",
-						image: "/assets/Comment.png"
+						image: "/assets/Comment.png",
 					},
 					{
 						name: "Color Palette",
@@ -60,7 +71,7 @@ export const projects = [
 							"https://github.com/thorski1/ColorPaletteReact",
 						siteURL:
 							"https://objective-borg-49ef3d.netlify.com",
-						image: "/assets/ColorPalette.png"
+						image: "/assets/ColorPalette.png",
 					},
 					{
 						name: "Star Wars",
@@ -70,7 +81,7 @@ export const projects = [
 						githubURL:
 							"https://github.com/thorski1/StarWarsReact",
 						siteURL: "https://star-wars.sthoyre.now.sh",
-						image: "/assets/StarWars.png"
+						image: "/assets/StarWars.png",
 					},
 					{
 						name: "ToDo App with Custom Hooks",
@@ -80,7 +91,7 @@ export const projects = [
 						githubURL:
 							"https://github.com/thorski1/ToDoWithCustomHooks",
 						siteURL: "https://todo-hooks.sthoyre.now.sh",
-						image: "/assets/ToDoWithHooks.png"
+						image: "/assets/ToDoWithHooks.png",
 					},
 					{
 						name: "Team Blog",
@@ -91,7 +102,7 @@ export const projects = [
 							"https://github.com/thorski1/CodeBlogGatsby",
 						siteURL:
 							"https://musing-raman-5f01f9.netlify.com",
-						image: "/assets/CodeBlog.png"
+						image: "/assets/CodeBlog.png",
 					},
 					{
 						name: "Dad Jokes",
@@ -102,7 +113,7 @@ export const projects = [
 							"https://github.com/thorski1/DadJokesReact",
 						siteURL:
 							"https://naughty-ritchie-720b3d.netlify.com",
-						image: "/assets/DadJokes.png"
+						image: "/assets/DadJokes.png",
 					},
 					{
 						name: "Florida's Breweries",
@@ -113,7 +124,7 @@ export const projects = [
 							"https://github.com/thorski1/FloridasBreweries",
 						siteURL:
 							"https://jovial-rosalind-d8799b.netlify.com",
-						image: "/assets/Breweries.png"
+						image: "/assets/Breweries.png",
 					},
 					{
 						name: "Technologically Challenged Blog",
@@ -124,7 +135,7 @@ export const projects = [
 							"https://github.com/thorski1/Tech-Blog",
 						siteURL:
 							"https://technologically-challenged-blog.netlify.com",
-						image: "/assets/TechBlog.png"
+						image: "/assets/TechBlog.png",
 					},
 					{
 						name: "First Progress Blog",
@@ -134,7 +145,7 @@ export const projects = [
 							"https://github.com/thorski1/CodePartyReact",
 						siteURL:
 							"https://thorski1.github.io/ProgressBlog/",
-						image: "/assets/ProgressBlog.png"
+						image: "/assets/ProgressBlog.png",
 					},
 					{
 						name: "YelpCamp",
@@ -145,7 +156,7 @@ export const projects = [
 							"https://github.com/thorski1/yelpcamp",
 						siteURL:
 							"https://still-chamber-95832.herokuapp.com",
-						image: "/assets/YelpCamp.png"
+						image: "/assets/YelpCamp.png",
 					},
 					{
 						name: "Stock Trader",
@@ -155,7 +166,7 @@ export const projects = [
 							"https://github.com/thorski1/StockTraderVue",
 						siteURL:
 							"https://sad-mcnulty-3949f7.netlify.com/",
-						image: "/assets/StockTrader.png"
+						image: "/assets/StockTrader.png",
 					},
 					{
 						name: "ToDo App with Hooks",
@@ -166,7 +177,7 @@ export const projects = [
 							"https://github.com/thorski1/TodoReactHooksContextReducers",
 						siteURL:
 							"https://hopeful-golick-e9cfeb.netlify.com",
-						image: "/assets/HooksToDo.png"
+						image: "/assets/HooksToDo.png",
 					},
 					{
 						name: "Dice Roll",
@@ -177,7 +188,7 @@ export const projects = [
 							"https://github.com/thorski1/RollDiceReact",
 						siteURL:
 							"https://tender-wiles-315784.netlify.com",
-						image: "/assets/DiceRoll.png"
+						image: "/assets/DiceRoll.png",
 					},
 					{
 						name: "Pokedex Game",
@@ -188,7 +199,7 @@ export const projects = [
 							"https://github.com/thorski1/PokedexGameReact",
 						siteURL:
 							"https://loving-lewin-36dede.netlify.com",
-						image: "/assets/Pokedex.png"
+						image: "/assets/Pokedex.png",
 					},
 					{
 						name: "Robot Rolodex",
@@ -198,7 +209,7 @@ export const projects = [
 							"https://github.com/thorski1/RobotRolodexReact",
 						siteURL:
 							"https://upbeat-nightingale-a52f41.netlify.com",
-						image: "/assets/RobotRolodex.png"
+						image: "/assets/RobotRolodex.png",
 					},
 					{
 						name: "To Do List",
@@ -209,7 +220,7 @@ export const projects = [
 							"https://github.com/thorski1/ToDoReact",
 						siteURL:
 							"https://jolly-raman-437342.netlify.com",
-						image: "/assets/ToDoBasic.png"
+						image: "/assets/ToDoBasic.png",
 					},
 					{
 						name: "Weather App",
@@ -220,7 +231,7 @@ export const projects = [
 							"https://github.com/thorski1/WeatherAppReact",
 						siteURL:
 							"https://weatherappreact-54pzgo7ut.now.sh/",
-						image: "/assets/WeatherApp.png"
+						image: "/assets/WeatherApp.png",
 					},
 					{
 						name: "Coin Flip",
@@ -231,7 +242,7 @@ export const projects = [
 							"https://github.com/thorski1/CoinFlipReact",
 						siteURL:
 							"https://fervent-joliot-e87aaa.netlify.com",
-						image: "/assets/CoinFlip.png"
+						image: "/assets/CoinFlip.png",
 					},
 					{
 						name: "Multilanguage Form",
@@ -242,7 +253,7 @@ export const projects = [
 							"https://github.com/thorski1/MultiLanguageFormReactContextHooks",
 						siteURL:
 							"https://agitated-golick-6ee84c.netlify.com",
-						image: "/assets/MultilanguageForm.png"
+						image: "/assets/MultilanguageForm.png",
 					},
 					{
 						name: "Random Card Generator",
@@ -253,7 +264,7 @@ export const projects = [
 							"https://github.com/thorski1/RandomCardGeneratorReact",
 						siteURL:
 							"https://youthful-galileo-f1b044.netlify.com",
-						image: "/assets/RandomCardGenerator.png"
+						image: "/assets/RandomCardGenerator.png",
 					},
 					{
 						name: "Lottery Balls",
@@ -263,7 +274,7 @@ export const projects = [
 							"https://github.com/thorski1/LotteryBallsReact",
 						siteURL:
 							"https://admiring-dubinsky-ce00b9.netlify.com",
-						image: "/assets/LotteryBall.png"
+						image: "/assets/LotteryBall.png",
 					},
 					{
 						name: "Dog List",
@@ -273,7 +284,7 @@ export const projects = [
 							"https://github.com/thorski1/RobotRolodexReact",
 						siteURL:
 							"https://objective-brown-07211c.netlify.com/dogs",
-						image: "/assets/DogList.png"
+						image: "/assets/DogList.png",
 					},
 					{
 						name: "Search Recipes",
@@ -284,7 +295,7 @@ export const projects = [
 							"https://github.com/thorski1/RecipeSearchApp",
 						siteURL:
 							"https://suspicious-swartz-f44c2e.netlify.com",
-						image: "/assets/RecipeSearch.png"
+						image: "/assets/RecipeSearch.png",
 					},
 					{
 						name: "Color Guessing Game",
@@ -295,7 +306,7 @@ export const projects = [
 							"https://github.com/thorski1/ColorGuessingGame",
 						siteURL:
 							"https://kind-agnesi-388e43.netlify.com",
-						image: "/assets/ColorGame.png"
+						image: "/assets/ColorGame.png",
 					},
 					{
 						name: "Patatap Clone",
@@ -306,7 +317,7 @@ export const projects = [
 							"https://github.com/thorski1/PatatapClone",
 						siteURL:
 							"https://elastic-franklin-ebbf24.netlify.com",
-						image: "/assets/Patatap.jpg"
+						image: "/assets/Patatap.jpg",
 					},
 					{
 						name: "Recipe Book",
@@ -317,7 +328,7 @@ export const projects = [
 							"https://github.com/thorski1/SamsRecipeBook",
 						siteURL:
 							"https://nervous-noyce-ed5d28.netlify.com/",
-						image: "/assets/RecipeBook.png"
+						image: "/assets/RecipeBook.png",
 					},
 					{
 						name: "Save Your Quotes",
@@ -328,7 +339,7 @@ export const projects = [
 							"https://github.com/thorski1/SaveYourQuotesVue",
 						siteURL:
 							"https://sad-spence-6bb2b0.netlify.com",
-						image: "/assets/QuoteSaver.png"
+						image: "/assets/QuoteSaver.png",
 					},
 					{
 						name: "Quote Generator",
@@ -339,7 +350,7 @@ export const projects = [
 							"https://github.com/thorski1/FamousQuotesJS",
 						siteURL:
 							"https://thorski1.github.io/FamousQuotesJS/",
-						image: "/assets/QuoteGenerator.png"
+						image: "/assets/QuoteGenerator.png",
 					},
 					{
 						name: "Background Color Changer",
@@ -350,6 +361,6 @@ export const projects = [
 							"https://github.com/thorski1/ChangeBackgroundColor",
 						siteURL:
 							"https://thorski1.github.io/ChangeBackgroundColor/",
-						image: "/assets/BackgroundColor.png"
-					}
+						image: "/assets/BackgroundColor.png",
+					},
 				];
