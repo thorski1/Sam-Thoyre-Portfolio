@@ -11,7 +11,7 @@ export const technicalSkills = [
 		value: 70,
 		color: "blue",
 		image: "/assets/TypeScript.svg"
-	}
+	},
 	{
 		skill: "HTML",
 		value: 100,
