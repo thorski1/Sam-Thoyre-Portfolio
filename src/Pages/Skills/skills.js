@@ -2,10 +2,16 @@
 export const technicalSkills = [
 	{
 		skill: "JavaScript",
-		value: 80,
+		value: 90,
 		color: "yellow",
 		image: "/assets/JS.jpg"
 	},
+	{
+		skill: "TypeScript",
+		value: 70,
+		color: "blue",
+		image: "/assets/TypeScript.svg"
+	}
 	{
 		skill: "HTML",
 		value: 100,
@@ -14,13 +20,13 @@ export const technicalSkills = [
 	},
 	{
 		skill: "CSS",
-		value: 85,
+		value: 90,
 		color: "blue",
 		image: "/assets/CSS.png"
 	},
 	{
 		skill: "NodeJS",
-		value: 70,
+		value: 60,
 		color: "grey",
 		image: "/assets/Node.jpg"
 	},
@@ -38,13 +44,13 @@ export const technicalSkills = [
 	},
 	{
 		skill: "Gatsby",
-		value: 60,
+		value: 70,
 		color: "purple",
 		image: "/assets/Gatsby.png"
 	},
 	{
 		skill: "React Native",
-		value: 60,
+		value: 80,
 		color: "blue",
 		image: "/assets/RNIcon.png"
 	},
