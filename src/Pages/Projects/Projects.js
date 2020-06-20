@@ -38,7 +38,7 @@ export const projects = [
 						githubURL:
 							"https://github.com/thorski1/Superheroes",
 						siteUrl:
-							"https://find-your-superhero.netlify.app/",
+							"https://find-your-superhero.netlify.app",
 						image: "/assets/superhero-project.png",
 					},
 					{

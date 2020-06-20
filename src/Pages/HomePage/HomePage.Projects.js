@@ -15,7 +15,7 @@ export const projects = [
 		description:
 			"This app was built using React with TypeScript. State is primarily managed with the Context/Reducer pattern.",
 		githubURL: "https://github.com/thorski1/Superheroes",
-		siteUrl: "https://find-your-superhero.netlify.app/",
+		siteUrl: "https://find-your-superhero.netlify.app",
 		image: "/assets/superhero-project.png",
 	},
 	{
