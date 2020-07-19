@@ -160,6 +160,17 @@ export const courses = [
 		link:
 			"https://www.udemy.com/course/complete-python-developer-zero-to-mastery/",
 	},
+	{
+		name:
+			"Complete Machine Learning and Data Science: Zero to Mastery",
+		instructor: "Andrei Neagoie",
+		hours: 43,
+		platform: "Udemy",
+		image: "/assets/CompleteMLDS.jpg",
+		color: "purple",
+		link:
+			"https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery/",
+	},
 
 	{
 		name: "jQuery Crash Course",
