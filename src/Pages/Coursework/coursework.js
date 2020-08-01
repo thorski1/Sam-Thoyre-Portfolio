@@ -181,7 +181,7 @@ export const courses = [
 						instructor: "Jose Portilla",
 						hours: 25,
 						platform: "Udemy",
-						image: "/assets/PythonMLDS.jpg",
+						image: "/assets/PythonMLDS.jpeg",
 						color: "yellow",
 						link:
 							"https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/",
